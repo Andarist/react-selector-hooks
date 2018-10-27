@@ -1,0 +1,45 @@
+{
+  "name": "react-selector-hooks",
+  "version": "0.0.0",
+  "description": "Collection of hook-based selector factories for declarations outside of render.",
+  "main": "./dist/react-selector-hooks.js",
+  "module": "./dist/react-selector-hooks.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest --env=node",
+    "prebuild": "rimraf dist",
+    "build": "rollup -c",
+    "preversion": "npm test",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andarist/react-selector-hooks.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andarist/react-selector-hooks/issues"
+  },
+  "homepage": "https://github.com/Andarist/react-selector-hooks#readme",
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "husky": "^1.1.0",
+    "jest": "^23.6.0",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3",
+    "react": "16.7.0-alpha.0",
+    "react-test-renderer": "^16.7.0-alpha.0",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3"
+  }
+}

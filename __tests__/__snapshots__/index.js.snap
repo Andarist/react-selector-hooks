@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createSelector 1`] = `
+<span>
+  5
+</span>
+`;
+
+exports[`createSelector 2`] = `
+<span>
+  5
+</span>
+`;
+
+exports[`createSelector 3`] = `
+<span>
+  7
+</span>
+`;
+
+exports[`createStateSelector 1`] = `
+<span>
+  5
+</span>
+`;
+
+exports[`createStateSelector 2`] = `
+<span>
+  5
+</span>
+`;
+
+exports[`createStateSelector 3`] = `
+<span>
+  13
+</span>
+`;
+
+exports[`createStateSelector 4`] = `
+<span>
+  13
+</span>
+`;
+
+exports[`createStateSelector 5`] = `
+<span>
+  16
+</span>
+`;
+
+exports[`createStructuredSelector 1`] = `
+<span>
+  5
+</span>
+`;
+
+exports[`createStructuredSelector 2`] = `
+<span>
+  5
+</span>
+`;
+
+exports[`createStructuredSelector 3`] = `
+<span>
+  13
+</span>
+`;
+
+exports[`createStructuredSelector 4`] = `
+<span>
+  13
+</span>
+`;
+
+exports[`createStructuredSelector 5`] = `
+<span>
+  16
+</span>
+`;
