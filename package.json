@@ -1,6 +1,6 @@
 {
   "name": "react-selector-hooks",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Collection of hook-based selector factories for declarations outside of render.",
   "main": "./dist/react-selector-hooks.js",
   "module": "./dist/react-selector-hooks.esm.js",
